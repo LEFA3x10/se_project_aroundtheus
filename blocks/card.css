@@ -64,3 +64,15 @@
       border: 1px;
   
   }
+
+  @media screen and (max-width:550px)  {
+
+    .card__like-button {
+      padding:0;
+    }
+
+    .names {
+      width:230px;
+  }
+}
+  
