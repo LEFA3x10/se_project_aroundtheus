@@ -10,19 +10,6 @@
       white-space: nowrap;
       overflow: hidden;
   }
-
-  
-  .card {
-      display: flex;
-      flex-direction:column;
-      border-radius:10px;
-      list-style:none;
-      font-family: "Inter",Arial,sans-serif;
-      font-style: normal; 
-      font-weight: 900; 
-      
-      
-  }
   
   .cards__list {
     display: grid;
@@ -34,42 +21,8 @@
     border-radius:10px;
     
   }
-  
-  
-  .card__image {
-    width:282px;
-    height:282px;
-    border-radius:10px;
-  }
-  
-  .card__description {
-      display: flex;
-      color:black;
-      background-color:white;
-      padding:25px 20px 25px 20px;
-      align-items:center;
-      justify-content:space-between;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      
-  }
-  
-  .card__like-button {
-      background: transparent url(../images/Vector\ \(2\).svg) center no-repeat;  
-      width:21px;
-      height:18px;
-      border: 1px;
-  
-  }
 
   @media screen and (max-width:550px)  {
-
-    .card__like-button {
-      padding:0;
-    }
 
     .names {
       width:230px;
