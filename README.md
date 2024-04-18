@@ -15,4 +15,4 @@ This is the third project of the Software Engineering program at TripleTen. It w
 
 Making sure the shrinking is going according to the size of all the screen sizes
 
-lefa3x10.github.io/se_project_aroundtheus
+https://lefa3x10.github.io/se_project_aroundtheus
