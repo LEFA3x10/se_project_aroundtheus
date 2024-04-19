@@ -1,11 +1,19 @@
 .header {
     margin-top:45px;
-    border-bottom:1px solid #545454;
+    border-bottom:1px solid rgba(84, 84, 84, 0.7);
     
 }
 
-.Around {
-    margin-bottom: 45px ;
-    margin-left:0px;
+.header__logo {
+    margin: 0 167px 32px 0px;
+    display: flex;
+    
 }
 
+@media screen and (max-width:806px)  {
+    .header__logo{
+        width: 126px;   
+    }
+
+
+}
