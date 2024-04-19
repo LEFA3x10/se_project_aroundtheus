@@ -1,7 +1,5 @@
 .cards {
     margin-top:30px;
-    
-  
   }
   
   .cards__list {
@@ -11,6 +9,5 @@
     grid-gap:20px 17px;
     padding:0;
     margin:0;
-    border-radius:10px;
-    
+    border-radius:10px;    
   }
