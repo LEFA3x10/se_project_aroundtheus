@@ -16,4 +16,4 @@ This is the third project of the Software Engineering program at TripleTen. It w
 Making sure the shrinking is going according to the size of all the screen sizes
 
 https://lefa3x10.github.io/se_project_aroundtheus
-<video src="video1584866660.mp4" controls title="Video explanation"></video>
+<video src="video1530140182.mp4" controls title="Title"></video>
