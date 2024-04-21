@@ -51,10 +51,6 @@
       padding:0;
     }
 
-    .card__like-button:hover {
-      opacity:50%;
-    }
-
     .card__title {
     width:230px;
 }

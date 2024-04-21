@@ -25,11 +25,4 @@
     .page__content {
       width:282px;
     }
-
-    .Around {
-        margin: 0 167px 32px 27px;
-        display: flex;
-        width: 126px;
-        height:24px;
-      }
 }
