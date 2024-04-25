@@ -1,58 +1,56 @@
-
 .card {
-    display: flex;
-    flex-direction:column;
-    border-radius:10px;
-    list-style:none;
-    font-family: "Inter",Arial,sans-serif;
-    font-style: normal; 
-    font-weight: 900;    
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  list-style: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
 }
 
 .card__image {
-    width:282px;
-    height:282px;
-    border-radius:10px;
-  }
-  
-  .card__description {
-      display: flex;
-      color:black;
-      background-color:white;
-      padding:25px 20px 25px 20px;
-      align-items:center;
-      justify-content:space-between;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;   
-  }
-  
-  .card__like-button {
-      background: transparent url(../images/card_like_button.svg) center no-repeat;  
-      width:21px;
-      height:18px;
-      border: 1px;
-      cursor: pointer;
-  }
+  width: 282px;
+  height: 282px;
+  border-radius: 10px;
+}
 
-  .card__like-button:hover {
-    opacity:50%;
+.card__description {
+  display: flex;
+  color: black;
+  background-color: white;
+  padding: 25px 20px 25px 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card__like-button {
+  background: transparent url(../images/card_like_button.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  border: 1px;
+  cursor: pointer;
+}
+
+.card__like-button:hover {
+  opacity: 50%;
+}
+
+.card__title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  max-width: 193px;
+}
+
+@media screen and (max-width: 806px) {
+  .card__like-button {
+    padding: 0;
   }
 
   .card__title {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    margin:0;
+    max-width: 219px;
   }
-  
-
-  @media screen and (max-width:806px)  {
-
-    .card__like-button {
-      padding:0;
-    }
-
-    .card__title {
-    width:230px;
-}
 }
