@@ -59,6 +59,9 @@
   line-height: 22px;
   margin: 0;
   grid-area: description;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   max-width: 415px;
 }
 
@@ -69,6 +72,7 @@
   margin-left: auto;
   border: 2px solid #fff;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {
