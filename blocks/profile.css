@@ -35,7 +35,7 @@
   grid-area: title;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
+  max-width: 373px;
 }
 
 .profile__edit-button {
@@ -61,7 +61,6 @@
   grid-area: description;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
   max-width: 415px;
 }
 
