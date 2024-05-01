@@ -23,6 +23,5 @@
 @media screen and (max-width: 806px) {
   .page__content {
     width: 282px;
-    overflow: hidden;
   }
 }
